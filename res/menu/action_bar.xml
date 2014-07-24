@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/go_to"
+          android:icon="@drawable/go_to"
+          android:title="GOTO"
+          android:showAsAction="ifRoom"/>
+     
+    <item android:id="@+id/poi"
+          android:icon="@drawable/poi"
+          android:title="POI"
+          android:showAsAction="ifRoom">
+          <menu>
+	        <item
+	            android:id="@+id/cinema"
+	            android:title="Cinema" />
+	        <item
+	            android:id="@+id/atm"
+	            android:title="ATM" />
+	        <item
+	            android:id="@+id/bus_stand"
+	            android:title="Bus Stand" />
+	        <item
+	            android:id="@+id/mall"
+	            android:title="Mall" />
+	        <item
+	            android:id="@+id/bank"
+	            android:title="Bank" />
+	        <item
+	            android:id="@+id/hospital"
+	            android:title="Hospital" />
+	        <item
+	            android:id="@+id/airport"
+	            android:title="Airport" />
+	        <item
+	            android:id="@+id/station"
+	            android:title="Station" />
+	        <item
+	            android:id="@+id/post"
+	            android:title="Post Office" />
+	        <item
+	            android:id="@+id/school"
+	            android:title="School" />
+	        <item
+	            android:id="@+id/hotel"
+	            android:title="Hotel" />
+    	  </menu>
+     </item>
+     
+    <item android:id="@+id/download"
+          android:icon="@drawable/download"
+          android:title="Download"
+          android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/clear"
+          android:icon="@drawable/clear"
+          android:title="Clear"
+          android:showAsAction="ifRoom" >
+          <menu>
+	        <item
+	            android:id="@+id/c_all"
+	            android:title="All" />
+	        <item
+	            android:id="@+id/c_poi"
+	            android:title="POI" />
+	        <item
+	            android:id="@+id/c_route"
+	            android:title="Route" />
+    	  </menu>
+    </item>
+    
+</menu>

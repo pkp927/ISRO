@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/go_to"
+        android:showAsAction="never"
+        android:title="GOTO"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"/>
+    
+    <item
+        android:id="@+id/poi"
+        android:showAsAction="never"
+        android:title="POI"
+        android:numericShortcut="2"
+        android:alphabeticShortcut="b"/>
+    
+    <item
+        android:id="@+id/clear"
+        android:showAsAction="never"
+        android:title="clear"
+        android:numericShortcut="3"
+        android:alphabeticShortcut="c"/>
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+</menu>
